@@ -1,0 +1,42 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>List</title>  
+</head>  
+<body>  
+
+<h3>Feedback Information</h3>  
+<table border=1>  
+    <thead>  
+        <td>ID</td>  
+        <td>Name</td>  
+        <td>Email</td>
+        <td>Audio File Name</td>  
+        <td>Prediction</td>
+        <td>Truth Value</td>    
+         
+    </thead>  
+      
+    {% for row in rows %}  
+      
+        <tr>  
+            <td>{{row["id"]}}</td>  
+            <td>{{row["name"]}}</td>  
+            <td>{{row["email"]}}</td> 
+            <td>{{row["audio_file"]}}</td>  
+            <td>{{row["prediction"]}}</td>
+            <td>{{row["truth_value"]}}</td>
+             
+        </tr> 
+      
+    {% endfor %}  
+</table>  
+<br><br>  
+
+<form action="/"><input type="submit" value="Go back to home page"></a></form>
+<!-- <a href="/"></a>   -->
+<br><br>
+<form action="/delete"><input type="submit" value="Delete record"></a></form>
+<!-- <a href="/delete">Delete record</a> -->
+</body>  
+</html>  
