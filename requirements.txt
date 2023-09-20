@@ -5,7 +5,7 @@ matplotlib==3.5.1
 pandas==1.4.0
 numpy
 pydub==0.25.1
-scikit_learn==1.0.2
+scikit_learn
 tensorflow==2.8.0
-Werkzeug==2.0.2
+Werkzeug
 
