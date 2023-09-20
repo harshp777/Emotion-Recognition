@@ -6,6 +6,6 @@ pandas==1.4.0
 numpy
 pydub==0.25.1
 scikit_learn
-tensorflow==2.8.0
+tensorflow
 Werkzeug
 
