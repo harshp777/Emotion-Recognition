@@ -6,7 +6,7 @@
 <img width="524" alt="image" src="https://github.com/harshp777/Emotion-Recognition/assets/58933098/1052d461-0237-4c56-ab47-fd9ddc9fc3bf">
 
 #### Data Distribution
-![image](https://github.com/harshp777/Emotion-Recognition/assets/58933098/d1e64b33-210d-4a3c-97d8-7cdaf666cdc0)
+![image](https://github.com/harshp777/Emotion-Recognition/assets/58933098/8b3bac38-6b96-4f49-9406-102e836906cb)
 
 
 #### GUI
